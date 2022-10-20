@@ -1,6 +1,8 @@
 import "../css/News.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Navbar from "./Navbar";
+import Footer from "./footer";
 
 const News = () => {
 
@@ -24,6 +26,7 @@ const News = () => {
 
   return (
     <>
+    <Navbar/>
       <div className="container">
         {
         news.map((curElm) => {
@@ -49,6 +52,7 @@ const News = () => {
           );
         })}
       </div>
+      <Footer/>
     </>
   );
 }

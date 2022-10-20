@@ -1,15 +1,18 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import News from './components/News'
-import Footer from "./components/footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import News from "../src/components/News"
+
 const App = () => {
 
 
   return (
     <>
-    <Navbar/>
-    <News/>
-    <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<News />}>
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
