@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Courgette&family=Dancing+Script:wght@600&family=Fugaz+One&family=Lobster&family=Oleo+Script&family=Secular+One&family=Tangerine&display=swap');
+.nav{
+    /* background-image: linear-gradient(to right,#1a2980,#26d0ce);
+     */
+     background: linear-gradient(135deg, #14ffe9,#ffeb3b,#ff00e0);
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+     animation: animate 1.5s linear infinite;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  text-align: center;
+  justify-content: center;
+}
+.nav_title{
+     font-family: 'Bodoni Moda';
+     font-size: 25px;
+     letter-spacing: 2px;
+     font-weight: 900;
+     /* border: 2px solid #4411ec; */
+     border-radius: 10px;
+     background-color: #ffff;
+     padding: 15px;
+     font-family: 'Lobster', cursive;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+@keyframes animate{
+    100%{
+        filter:hue-rotate(360deg);
+    }
+}
