@@ -4,7 +4,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.card-text a{
+   text-decoration: none;
+}
 .card{
     margin:32px 18px;
     border: 2px solid black;
@@ -24,4 +26,9 @@
 body {
     background-image: linear-gradient(to right,#e0c4fd,#8fc6fd);
 }
+#more {display: none;}
 
+.btnn{
+   border: none;
+   color: rgb(255, 0, 195);
+}
